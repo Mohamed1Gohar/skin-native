@@ -1,0 +1,9 @@
+.header-quiz-link {
+  max-width: 30rem;
+  display: grid;
+  grid-template-columns: auto 3.7rem;
+  grid-gap: 1rem;
+  a {
+    font-size: 18px;
+  }
+}

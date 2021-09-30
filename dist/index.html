@@ -51,10 +51,66 @@
         </ul>
       </div>
     </nav>
+    <div class="container text-right">
+      <div class="row">
+        <!-- right part  -->
+        <div class="col-lg-6 py-5 mt-3">
+          <h1 class="pb-4 darker-cl" dir='rtl'>
+            روتين مصمم خصيصاً
+            <br /> لـ &nbsp;
+            <span class='typed lightblue-cl'></span>
+          </h1>
+          <p class="mb-5">
+            بسبب اختلاف نوع البشرة من شخص لآخر، دكاترة الجلدية بتنصح دايما
+            بعدم استخدام منتجات بشرة بشكل عشوائي لمجرد انها فعالة على الآخرين.
+            لذلك صممنا لك Quiz مجاني يحدد لك نسبة العناصر التي تحتاج اليها
+            بشرتك للوصول الى النتائج المرغوب فيها بسهولة.
+          </p>
+
+          <div>
+            <div class="w-100 mx-md-auto header-quiz-link mb-4">
+              <div class="w-100 first-link darkblue-bg text-center rounded-pill">
+                <a href="" class='text-white d-block w-100 h-100 p-3 rounded-pill'> اكتشف روتينك المناسب
+                </a>
+              </div>
+
+              <div class="w-100 darkblue-bg text-center rounded-pill">
+                <a href="" class="text-white d-block w-100 h-100 p-3 rounded-pill">
+                  <i class="fas fa-caret-left"></i>
+                </a>
+              </div>
+            </div>
+            <p className=" my-4 ">
+              مجاني يستغرق دقيقتين فقط ليرشح لك الروتين الامثل لك.
+            </p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6">
+          <img src="media/header.png" alt="شكرا لskin plans عشان ساعدتني">
+        </div>
+      </div>
+    </div>
   </header>
 
 
   <!-- js code-->
+  <script src="js/typed.min.js"></script>
+  <script>
+    // typed effect
+    let typed = new Typed('.typed', {
+      strings: [
+        "بشرتك", "جمالك"
+      ],
+      typeSpeed: 120,
+      startDelay: 500,
+      backDelay: 1600,
+      backSpeed: 0,
+      loop: true,
+      cursorChar: "|",
+    });
+  </script>
   <script src="js/script.js"></script>
 </body>
 
