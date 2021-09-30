@@ -1,56 +1,25 @@
 //helper class
 
-// .blue-cl {
-//   color: $blue-cl !important;
-// }
+.darkblue-cl {
+  color: $darkblue-cl !important;
+}
 
-// .blue-border {
-//   border-color: $blue-cl !important;
-// }
+.darkblue-bg {
+  background-color: $darkblue-cl !important;
+  color: $light-cl !important;
+}
 
-// .blue-bg {
-//   background-color: $blue-cl !important;
-//   color: $gray-cl !important;
-// }
+.lightblue-cl {
+  color: $lightblue-cl !important;
+}
 
-// .gray-cl {
-//   color: $gray-cl !important;
-// }
+.light-cl {
+  color: $light-cl !important;
+}
 
-// .gray-border {
-//   border-color: $gray-cl !important;
-// }
-
-// .gray-bg {
-//   background-color: $gray-cl !important;
-//   color: $blue-cl !important;
-// }
-
-// .dark-cl {
-//   color: $dark-cl !important;
-// }
-
-// .dark-bg {
-//   background-color: $dark-cl !important;
-//   color: $gray-cl !important;
-// }
-
-// .darker-cl {
-//   color: $darker-cl !important;
-// }
-
-// .darker-bg {
-//   background-color: $darker-cl !important;
-//   color: $gray-cl !important;
-// }
-
-// .green-cl {
-//   color: $green-cl !important;
-// }
-
-// .green-bg {
-//   background-color: $green-cl !important;
-//   color: $gray-cl !important;
-// }
+.light-bg {
+  background-color: $light-cl !important;
+  color: $darkblue-cl !important;
+}
 
 //placeholders
